@@ -1,0 +1,24 @@
+GET http://localhost:8000/api/posts
+Content-Type: application/json
+
+###
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+
+{
+    "title": "tuntun",
+    "content": "abc"
+}
+
+###
+PUT http://localhost:8000/api/posts/6131e7534c39ca751d76563b
+Content-Type: application/json
+
+{
+    "title": "tuntunsdf2",
+    "content": "abc"
+}
+
+###
+DELETE http://localhost:8000/api/posts/6131e7534c39ca751d76563b
+Content-Type: application/json
